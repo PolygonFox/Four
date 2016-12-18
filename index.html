@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Four Engine</title>
+
+	<!-- Dependencies -->
+	<script type="text/javascript" src="dependencies\threejs\build\three.js"></script>
+	<script type="text/javascript" src="dependencies\threejs\examples\js\loaders\OBJLoader.js"></script>
+	<script type="text/javascript" src="dependencies\threejs\examples\js\loaders\MTLLoader.js"></script>
+	<script type="text/javascript" src="dependencies\threejs\examples\js\loaders\DDSLoader.js"></script>
+
+	<script type="text/javascript" src="dependencies\physijs\physi.js"></script>
+
+	<!-- CDN Dependencies -->
+	<script type="text/javascript" src="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
+	<script type="text/javascript" src="https://code.createjs.com/tweenjs-0.6.2.min.js"></script>
+	<script type="text/javascript" src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+
+	<!-- Four -->
+	<script type="text/javascript" src="Four/Four.js"></script>
+	<script type="text/javascript" src="Four/core/Engine.js"></script>
+	<script type="text/javascript" src="Four/core/Renderer.js"></script>
+	<script type="text/javascript" src="Four/core/InputManager.js"></script>
+	<script type="text/javascript" src="Four/core/InputController.js"></script>
+	<script type="text/javascript" src="Four/core/AssetManager.js"></script>
+
+	<!-- Game -->
+	<script type="text/javascript" src="Game/Car.js"></script>
+	<script type="text/javascript" src="Game/Game.js"></script>
+	<script type="text/javascript" src="Game/Floor.js"></script>
+	<script type="text/javascript" src="Game/Settings.js"></script>
+
+	<style type="text/css">
+		body, html {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		canvas{ 
+			margin: 0px;
+			display: block;
+			float: left;
+	 	}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		new GTA.Game();
+	</script>
+</body>
+</html>
